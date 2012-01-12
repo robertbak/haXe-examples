@@ -48,18 +48,17 @@ class XMLExamples {
 
     public function example_modification() {
         var xml = Xml.parse(XMLExamples.testXMLString2);
-        // StringTools.htmlEscape used to display it nicely in the browser
         // Let's take a look at what everything produces 
-        trace (StringTools.htmlEscape(Xml.createElement("test").toString()));
-        trace (StringTools.htmlEscape(Xml.createCData("test").toString()));
-        trace (StringTools.htmlEscape(Xml.createComment("test").toString()));
-        trace (StringTools.htmlEscape(Xml.createDocType("test").toString()));
-        trace (StringTools.htmlEscape(Xml.createPCData("test").toString()));
-        trace (StringTools.htmlEscape(Xml.createProlog("test").toString()));
+        trace (Xml.createElement("test").toString());
+        trace (Xml.createCData("test").toString());
+        trace (Xml.createComment("test").toString());
+        trace (Xml.createDocType("test").toString());
+        trace (Xml.createPCData("test").toString());
+        trace (Xml.createProlog("test").toString());
         xml.firstChild().addChild(Xml.createElement("testElement"));
-        trace (StringTools.htmlEscape(xml.toString()));
+        trace (xml.toString());
         xml.firstChild().insertChild(Xml.createElement("testElementForIndex0"),0);
-        trace (StringTools.htmlEscape(xml.toString()));
+        trace (xml.toString());
     }
 
     /**
@@ -73,15 +72,12 @@ class XMLExamples {
         var fastXml = new haxe.xml.Fast(xml.firstChild());
         // get the name of the current node
         trace (fastXml.name);
-        /* Output: test */
 
         // check if an attribute "label" exist 
         trace (fastXml.has.label);
-        /* Output: true */
 
         // access an attribute called "label"
         trace (fastXml.att.label);
-        /* Output: mainNode */
 
         // accessing attibutes which do not exists 
         try{
@@ -91,11 +87,9 @@ class XMLExamples {
         catch (msg:String){
             trace ("Exception: " + msg);
         }
-        /** Output: Exception: test is missing attribute notanattribute **/
 
         // So a smart thing to do is:
         if (fastXml.has.notanattribute) trace(fastXml.has.notanattribute);
-        /** Output: -- no exception thrown -- */
 
         if (fastXml.hasNode.item){
             for (fastNode in fastXml.nodes.item)

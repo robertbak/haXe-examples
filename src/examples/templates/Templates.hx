@@ -59,6 +59,13 @@ class Templates
     
     public function example_makro():String {
         
+		var makroFunction = function ( resolve: String -> Dynamic, age:Int):String {
+        
+            // this gives the value of the user variable in the context
+            resolve('user');
+            return "Test" ;
+        }
+		
         var templateDefinition:String = "This shows the use of makros - $$makro(::user.age::)";
         
         var user:User = new User("Bob", "Hope", 43);                
@@ -69,12 +76,7 @@ class Templates
     }
     
     
-    public function makroFunction( resolve: String -> Dynamic, age:Int):String {
-        
-        // this gives the value of the user variable in the context
-        resolve('user');
-        return "Test" ;
-    }
+    
     
     public function example_globals():String {
         // use the Template.globals
