@@ -1,0 +1,82 @@
+<xml>
+<files id="haxe">
+<compilerflag value="-Iinclude"/>
+  <file name="src/StringBuf.cpp">
+   <depend name="include/StringBuf.h"/>
+  </file>
+  <file name="src/examples/templates/User.cpp">
+   <depend name="include/examples/templates/User.h"/>
+  </file>
+  <file name="src/examples/templates/Templates.cpp">
+   <depend name="include/examples/templates/Templates.h"/>
+   <depend name="include/examples/templates/User.h"/>
+   <depend name="include/haxe/Log.h"/>
+   <depend name="include/haxe/Template.h"/>
+  </file>
+  <file name="src/Reflect.cpp">
+   <depend name="include/Reflect.h"/>
+  </file>
+  <file name="src/List.cpp">
+   <depend name="include/List.h"/>
+   <depend name="include/Std.h"/>
+   <depend name="include/StringBuf.h"/>
+  </file>
+  <file name="src/examples/api/ArrayExamples.cpp">
+   <depend name="include/StringBuf.h"/>
+   <depend name="include/examples/api/ArrayExamples.h"/>
+   <depend name="include/haxe/Log.h"/>
+  </file>
+  <file name="src/Std.cpp">
+   <depend name="include/Std.h"/>
+  </file>
+  <file name="src/Main.cpp">
+   <depend name="include/Main.h"/>
+   <depend name="include/examples/api/ArrayExamples.h"/>
+   <depend name="include/examples/templates/Templates.h"/>
+   <depend name="include/haxe/Log.h"/>
+  </file>
+  <file name="src/haxe/Log.cpp">
+   <depend name="include/haxe/Log.h"/>
+  </file>
+  <file name="src/haxe/Template.cpp">
+   <depend name="include/EReg.h"/>
+   <depend name="include/List.h"/>
+   <depend name="include/Reflect.h"/>
+   <depend name="include/Std.h"/>
+   <depend name="include/StringBuf.h"/>
+   <depend name="include/haxe/Template.h"/>
+   <depend name="include/haxe/_Template/TemplateExpr.h"/>
+  </file>
+  <file name="src/EReg.cpp">
+   <depend name="include/EReg.h"/>
+   <depend name="include/Std.h"/>
+   <depend name="include/StringBuf.h"/>
+   <depend name="include/cpp/Lib.h"/>
+  </file>
+  <file name="src/cpp/Lib.cpp">
+   <depend name="include/cpp/Lib.h"/>
+  </file>
+  <file name="src/haxe/_Template/TemplateExpr.cpp">
+   <depend name="include/List.h"/>
+   <depend name="include/haxe/_Template/TemplateExpr.h"/>
+  </file>
+  <file name="src/__boot__.cpp">
+  </file>
+  <file name="src/__resources__.cpp">
+  </file>
+</files>
+<files id="__lib__">
+<compilerflag value="-Iinclude"/>
+  <file name="src/__lib__.cpp">
+   <depend name="include/Main.h"/>
+  </file>
+</files>
+<files id="__main__">
+<compilerflag value="-Iinclude"/>
+  <file name="src/__main__.cpp">
+   <depend name="include/Main.h"/>
+  </file>
+</files>
+<set name="HAXE_OUTPUT" value="Main" />
+<include name="${HXCPP}/build-tool/BuildCommon.xml"/>
+</xml>
