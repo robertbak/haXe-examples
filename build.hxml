@@ -1,0 +1,18 @@
+-neko bin/neko/Main.n
+-main Main.hx
+-cp src
+
+#-swf9 bin/swf/Main.swf
+#-main Main
+#-cp src
+
+#--next
+ 
+#-cpp bin/cpp
+#-main Main
+#-cp src
+
+#--next
+#-as3 bin/as3
+#-main Main
+#-cp src

@@ -1,0 +1,3 @@
+-neko bin/neko/Server.n
+-main MainServer
+-cp src
