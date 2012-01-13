@@ -58,6 +58,8 @@ class InputExamples {
 
         // Read 2 bytes and put it in read starting from index 2
         input.readBytes(read,2,2);
+        // Read 1 byte and put it in read index 1
+        input.readBytes(read,1,1);
         trace(read);
 
         // Try putting data that will not fit
