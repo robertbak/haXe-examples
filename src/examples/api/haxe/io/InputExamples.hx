@@ -67,7 +67,7 @@ class InputExamples {
         catch (e:haxe.io.Error){
             trace (e);
         }
-   
+
         // Trying to read more bytes than are availible in Input
         var input = new haxe.io.StringInput("some");
         var read = haxe.io.Bytes.alloc(6);
@@ -75,29 +75,28 @@ class InputExamples {
     }
 
     public function readDoubleExample() {
-       //TODO 
+        //TODO 
     }
 
     public function readFloatExample() {
-       //TODO 
+        //TODO 
     }
-    
+
     public function readFullBytesExample() {
-    //TODO
-        
+        //TODO
     }
-    
+
     public function readInt16Example() {
-       //TODO 
+        //TODO 
     }
-    
+
     public function readInt24Example() {
-       //TODO 
+        //TODO 
     }
-    
+
     public function readInt31Example() {
-       //TODO 
+        //TODO 
     }
-    
+
     // TODO: there's more 
 }
