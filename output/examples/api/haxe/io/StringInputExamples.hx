@@ -1,7 +1,6 @@
 package examples.api.haxe.io;
 
 import haxe.io.StringInput;
-import haxe.io.BytesInput;
 
 class StringInputExamples {
     public function new(){
