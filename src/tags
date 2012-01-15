@@ -1,0 +1,140 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ArrayExamples	examples/api/ArrayExamples.hx	/^class ArrayExamples {$/;"	c
+BytesBufferExamples	examples/api/haxe/io/BytesBufferExamples.hx	/^class BytesBufferExamples {$/;"	c
+BytesDataExamples	examples/api/haxe/io/BytesDataExamples.hx	/^class BytesDataExamples {$/;"	c
+BytesExamples	examples/api/haxe/io/BytesExamples.hx	/^class BytesExamples {$/;"	c
+BytesInputExamples	examples/api/haxe/io/BytesInputExamples.hx	/^class BytesInputExamples {$/;"	c
+BytesOutputExamples	examples/api/haxe/io/BytesOutputExamples.hx	/^class BytesOutputExamples {$/;"	c
+Comment	doc/Comment.hx	/^class Comment {$/;"	c
+DocServer	docprinter/DocServer.hx	/^class DocServer {$/;"	c
+EofExamples	examples/api/haxe/io/EofExamples.hx	/^class EofExamples {$/;"	c
+ErrorExamples	examples/api/haxe/io/ErrorExamples.hx	/^class ErrorExamples {$/;"	c
+InputExamples	examples/api/haxe/io/InputExamples.hx	/^class InputExamples {$/;"	c
+Main	Main.hx	/^class Main {    $/;"	c
+MainServer	MainServer.hx	/^class MainServer {$/;"	c
+OutputExamples	examples/api/haxe/io/OutputExamples.hx	/^class OutputExamples {$/;"	c
+StringInputExamples	examples/api/haxe/io/StringInputExamples.hx	/^class StringInputExamples {$/;"	c
+TemplateExamples	examples/api/haxe/TemplateExamples.hx	/^class TemplateExamples {$/;"	c
+Templates	examples/templates/Templates.hx	/^class Templates$/;"	c
+URL	Main.hx	/^    public static var URL = "http:\/\/localhost:2000\/Server.n";$/;"	v
+User	examples/templates/Templates.hx	/^class User {$/;"	c
+XMLExamples	examples/xml/XMLExamples.hx	/^class XMLExamples {$/;"	c
+age	examples/templates/Templates.hx	/^    public var age:Int;$/;"	v
+catch	docprinter/DocServer.hx	/^            catch( ex:haxe.io.Eof )             $/;"	t
+classList	Main.hx	/^    public static var classList:Array<String> = $/;"	v
+className	doc/Comment.hx	/^    public var className:String;$/;"	v
+concatExample	examples/api/ArrayExamples.hx	/^    public function concatExample(){$/;"	f
+copyExample	examples/api/ArrayExamples.hx	/^    public function copyExample(){$/;"	f
+count	Main.hx	/^    static var count:Int = 0;    $/;"	v
+createDirectory	Main.hx	/^    static function createDirectory(dirPath:String){$/;"	f
+createDirectory	docprinter/DocServer.hx	/^	public  function createDirectory(dirPath:String){$/;"	f
+custom_trace	Main.hx	/^    public static function custom_trace( v : Dynamic, ?inf : haxe.PosInfos){     $/;"	f
+display	Main.hx	/^    static function display(v) {$/;"	f
+doc	doc/Comment.hx	/^package doc;$/;"	p
+docprinter	docprinter/DocServer.hx	/^package docprinter;$/;"	p
+example_browsing	examples/xml/XMLExamples.hx	/^    public function example_browsing() {$/;"	f
+example_fastXML	examples/xml/XMLExamples.hx	/^    public function example_fastXML() {$/;"	f
+example_fields	examples/templates/Templates.hx	/^    public function example_fields():String {$/;"	f
+example_for	examples/templates/Templates.hx	/^    public function example_for():String {$/;"	f
+example_globals	examples/templates/Templates.hx	/^    public function example_globals():String {$/;"	f
+example_if	examples/templates/Templates.hx	/^    public function example_if():String {$/;"	f
+example_makro	examples/templates/Templates.hx	/^    public function example_makro():String {$/;"	f
+example_modification	examples/xml/XMLExamples.hx	/^    public function example_modification() {$/;"	f
+example_parse	examples/xml/XMLExamples.hx	/^    public function example_parse():Xml{$/;"	f
+example_variables	examples/templates/Templates.hx	/^    public function example_variables():String {$/;"	f
+examples	examples/api/ArrayExamples.hx	/^package examples.api;$/;"	p
+examples	examples/api/haxe/TemplateExamples.hx	/^package examples.api.haxe;$/;"	p
+examples	examples/api/haxe/io/BytesBufferExamples.hx	/^package examples.api.haxe.io;$/;"	p
+examples	examples/api/haxe/io/BytesDataExamples.hx	/^package examples.api.haxe.io;$/;"	p
+examples	examples/api/haxe/io/BytesExamples.hx	/^package examples.api.haxe.io;$/;"	p
+examples	examples/api/haxe/io/BytesInputExamples.hx	/^package examples.api.haxe.io;$/;"	p
+examples	examples/api/haxe/io/BytesOutputExamples.hx	/^package examples.api.haxe.io;$/;"	p
+examples	examples/api/haxe/io/EofExamples.hx	/^package examples.api.haxe.io;$/;"	p
+examples	examples/api/haxe/io/ErrorExamples.hx	/^package examples.api.haxe.io;$/;"	p
+examples	examples/api/haxe/io/InputExamples.hx	/^package examples.api.haxe.io;$/;"	p
+examples	examples/api/haxe/io/OutputExamples.hx	/^package examples.api.haxe.io;$/;"	p
+examples	examples/api/haxe/io/StringInputExamples.hx	/^package examples.api.haxe.io;$/;"	p
+examples	examples/templates/Templates.hx	/^package examples.templates;$/;"	p
+examples	examples/xml/XMLExamples.hx	/^package examples.xml;$/;"	p
+examples.api	examples/api/ArrayExamples.hx	/^package examples.api;$/;"	p
+examples.api.haxe	examples/api/haxe/TemplateExamples.hx	/^package examples.api.haxe;$/;"	p
+examples.api.haxe.io	examples/api/haxe/io/BytesBufferExamples.hx	/^package examples.api.haxe.io;$/;"	p
+examples.api.haxe.io	examples/api/haxe/io/BytesDataExamples.hx	/^package examples.api.haxe.io;$/;"	p
+examples.api.haxe.io	examples/api/haxe/io/BytesExamples.hx	/^package examples.api.haxe.io;$/;"	p
+examples.api.haxe.io	examples/api/haxe/io/BytesInputExamples.hx	/^package examples.api.haxe.io;$/;"	p
+examples.api.haxe.io	examples/api/haxe/io/BytesOutputExamples.hx	/^package examples.api.haxe.io;$/;"	p
+examples.api.haxe.io	examples/api/haxe/io/EofExamples.hx	/^package examples.api.haxe.io;$/;"	p
+examples.api.haxe.io	examples/api/haxe/io/ErrorExamples.hx	/^package examples.api.haxe.io;$/;"	p
+examples.api.haxe.io	examples/api/haxe/io/InputExamples.hx	/^package examples.api.haxe.io;$/;"	p
+examples.api.haxe.io	examples/api/haxe/io/OutputExamples.hx	/^package examples.api.haxe.io;$/;"	p
+examples.api.haxe.io	examples/api/haxe/io/StringInputExamples.hx	/^package examples.api.haxe.io;$/;"	p
+examples.templates	examples/templates/Templates.hx	/^package examples.templates;$/;"	p
+examples.xml	examples/xml/XMLExamples.hx	/^package examples.xml;$/;"	p
+file_comments	Main.hx	/^    public static var file_comments:Array<doc.Comment>;$/;"	v
+firstName	examples/templates/Templates.hx	/^    public var firstName:String;$/;"	v
+foo	docprinter/DocServer.hx	/^    function foo(x,y) { return x + y; }$/;"	f
+function	examples/api/ArrayExamples.hx	/^            function(x:Int,y:Int){$/;"	t
+insertExample	examples/api/ArrayExamples.hx	/^    public function insertExample(){$/;"	f
+iterator	examples/api/ArrayExamples.hx	/^    public function iterator(){$/;"	f
+joinExample	examples/api/ArrayExamples.hx	/^    public function joinExample(){$/;"	f
+lastName	examples/templates/Templates.hx	/^    public var lastName:String;$/;"	v
+lengthExample	examples/api/ArrayExamples.hx	/^    public function lengthExample(){$/;"	f
+line_no	doc/Comment.hx	/^    public var line_no:Int;$/;"	v
+main	Main.hx	/^    public static function main() {        $/;"	f
+main	MainServer.hx	/^    public static function main() {$/;"	f
+main	docprinter/DocServer.hx	/^    public static function main() {$/;"	f
+main	examples/xml/XMLExamples.hx	/^    static function main() {$/;"	f
+new	Main.hx	/^    public function new(){$/;"	f
+new	doc/Comment.hx	/^    public function new(line_no,className,text){$/;"	f
+new	docprinter/DocServer.hx	/^    public function new(){$/;"	f
+new	examples/api/ArrayExamples.hx	/^    public function new(){$/;"	f
+new	examples/api/haxe/TemplateExamples.hx	/^    public function new(){$/;"	f
+new	examples/api/haxe/io/BytesBufferExamples.hx	/^	public function new(){$/;"	f
+new	examples/api/haxe/io/BytesDataExamples.hx	/^	public function new(){$/;"	f
+new	examples/api/haxe/io/BytesExamples.hx	/^	public function new(){$/;"	f
+new	examples/api/haxe/io/BytesInputExamples.hx	/^	public function new(){$/;"	f
+new	examples/api/haxe/io/BytesOutputExamples.hx	/^	public function new(){$/;"	f
+new	examples/api/haxe/io/EofExamples.hx	/^	public function new(){$/;"	f
+new	examples/api/haxe/io/ErrorExamples.hx	/^	public function new(){$/;"	f
+new	examples/api/haxe/io/InputExamples.hx	/^    public function new(){$/;"	f
+new	examples/api/haxe/io/OutputExamples.hx	/^	public function new(){$/;"	f
+new	examples/api/haxe/io/StringInputExamples.hx	/^    public function new(){$/;"	f
+new	examples/templates/Templates.hx	/^    public function new() $/;"	f
+new	examples/templates/Templates.hx	/^    public function new(firstName:String, lastName:String, age:Int) {$/;"	f
+new	examples/xml/XMLExamples.hx	/^    public function new() {$/;"	f
+newExample	examples/api/ArrayExamples.hx	/^    public function newExample(){$/;"	f
+outputDirectory	docprinter/DocServer.hx	/^    static var outputDirectory:String = '\/home\/robert\/Projects\/haxe\/haXe_examples\/output';$/;"	v
+package	Main.hx	/^package;$/;"	t
+package	MainServer.hx	/^package;$/;"	t
+popExample	examples/api/ArrayExamples.hx	/^    public function popExample(){$/;"	f
+pushExample	examples/api/ArrayExamples.hx	/^    public function pushExample(){$/;"	f
+readAllExample	examples/api/haxe/io/InputExamples.hx	/^    public function readAllExample(){$/;"	f
+readByteExample	examples/api/haxe/io/InputExamples.hx	/^    public function readByteExample(){$/;"	f
+readBytesExample	examples/api/haxe/io/InputExamples.hx	/^    public function readBytesExample(){$/;"	f
+readExample	examples/api/haxe/io/InputExamples.hx	/^    public function readExample(){$/;"	f
+readLineExample	examples/api/haxe/io/InputExamples.hx	/^    public function readLineExample(){$/;"	f
+removeExample	examples/api/ArrayExamples.hx	/^    public function removeExample(){$/;"	f
+return	docprinter/DocServer.hx	/^          return;$/;"	t
+reverseExample	examples/api/ArrayExamples.hx	/^    public function reverseExample(){$/;"	f
+runOnClass	Main.hx	/^    public static function runOnClass(className:String){$/;"	f
+running_on	Main.hx	/^    public static var running_on:String;$/;"	v
+sample_use	examples/api/haxe/io/StringInputExamples.hx	/^    public function sample_use(){$/;"	f
+shiftExample	examples/api/ArrayExamples.hx	/^    public function shiftExample(){$/;"	f
+show_templates	Main.hx	/^    public static function show_templates(){        $/;"	f
+sliceExample	examples/api/ArrayExamples.hx	/^    public function sliceExample(){$/;"	f
+sortExample	examples/api/ArrayExamples.hx	/^    public function sortExample(){$/;"	f
+sourceDirectory	docprinter/DocServer.hx	/^    static var sourceDirectory:String = '\/home\/robert\/Projects\/haxe\/haXe_examples\/src';$/;"	v
+spliceExample	examples/api/ArrayExamples.hx	/^    public function spliceExample(){$/;"	f
+testConfig	docprinter/DocServer.hx	/^    function testConfig(){$/;"	f
+testSerialization	docprinter/DocServer.hx	/^    public function testSerialization(comments:Array<Comment>){$/;"	f
+testXMLString1	examples/xml/XMLExamples.hx	/^    static public var testXMLString1 = "<test><item label='something' param='value'><subitem label='subitemlabel' \/><\/item><\/test>";$/;"	v
+testXMLString2	examples/xml/XMLExamples.hx	/^    static public var testXMLString2 = $/;"	v
+text	doc/Comment.hx	/^    public var text:String;$/;"	v
+trace	examples/xml/XMLExamples.hx	/^                trace("Type: " + fastNode.name + " - " + fastNode.att.label);$/;"	t
+traceHolder	Main.hx	/^    static var traceHolder; $/;"	v
+unshiftExample	examples/api/ArrayExamples.hx	/^    public function unshiftExample(){$/;"	f
