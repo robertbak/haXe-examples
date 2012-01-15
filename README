@@ -1,0 +1,14 @@
+# About
+
+The main goal is to provide usage examples for haXe api.
+
+The code is kept in the src folder and the final examples are kept in 
+the output dir. 
+
+Currently it's in an early stage, but some things are starting to
+work. 
+
+Every trace statement in the src folder gets an automatically generated
+comment with the trace result in output 
+(compare - https://github.com/robertbak/haXe-examples/blob/master/src/examples/api/LambdaExamples.hx
+and https://github.com/robertbak/haXe-examples/blob/master/output/examples/api/LambdaExamples.hx )
