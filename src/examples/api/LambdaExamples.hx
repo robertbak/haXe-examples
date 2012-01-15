@@ -1,6 +1,5 @@
 package examples.api;
 
-// Most of this examples were created by http://haxe.org/wiki/user?name=ianxm
 class LambdaExamples {
 
     function new() {
