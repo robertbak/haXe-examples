@@ -1,6 +1,7 @@
 package;
 import examples.templates.Templates;
 import examples.api.ArrayExamples;
+import examples.api.LambdaExamples;
 import examples.api.haxe.io.BytesBufferExamples; 
 import examples.api.haxe.io.BytesDataExamples; 
 import examples.api.haxe.io.BytesExamples; 
@@ -102,7 +103,8 @@ class Main {
 'examples.api.haxe.io.ErrorExamples', 
 'examples.api.haxe.io.InputExamples', 
 'examples.api.haxe.io.OutputExamples', 
-'examples.api.haxe.io.StringInputExamples'];
+'examples.api.haxe.io.StringInputExamples',
+'examples.api.LambdaExamples'];
 
     public static var URL = "http://localhost:2000/Server.n";
     public static function main() {        
